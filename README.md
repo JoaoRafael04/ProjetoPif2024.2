@@ -12,5 +12,6 @@
 - Professor Orientador do Projeto: Diego De Freitas Bezerra
 
 # Sobre o Projeto
-Jogo ainda por definir 
+*Jogo ainda por definir*
+
 Este repositório contém os trabalhos desenvolvidos pelos membros acima na disciplina de Programação Imperativa e Funcional. Cada atividade será documentada nos arquivos correspondentes para facilitar o entendimento e a análise do desenvolvimento do projeto.
