@@ -12,6 +12,22 @@
 - Professor Orientador do Projeto: Diego De Freitas Bezerra
 
 # Sobre o Projeto
-*Jogo ainda por definir*
+*Pixel Race* 
 
-Este repositório contém os trabalhos desenvolvidos pelos membros acima na disciplina de Programação Imperativa e Funcional. Cada atividade será documentada nos arquivos correspondentes para facilitar o entendimento e a análise do desenvolvimento do projeto.
+Este jogo é um simulador de corrida onde o jogador controla um carro que deve se desviar de obstáculos que se movem em direção a ele. O objetivo do jogador é sobreviver o maior tempo possível, evitando colisões. Quando ocorre uma colisão entre o carro e um obstáculo, o jogo termina e exibe uma mensagem de "Game Over".
+
+#Mecanica do jogo
+
+*1. Movimento do Carro*
+O jogador pode mover o carro para a esquerda ou direita usando as teclas A e D, respectivamente.
+O carro possui restrições nas laterais da tela, impedindo que ele se mova para fora da área visível.
+*2. Obstáculos*
+Os obstáculos aparecem na tela e se movem constantemente em direção ao carro, simulando uma pista de corrida.
+A cada atualização de tempo, a posição dos obstáculos é recalculada, e novos obstáculos podem aparecer.
+*3. Colisões*
+O jogo verifica constantemente se o carro colidiu com algum obstáculo.
+Caso ocorra uma colisão, o jogo termina.
+*4. Pontuação*
+A cada atualização dos obstáculos, o jogo exibe a pontuação atual do jogador.
+A pontuação reflete o tempo de sobrevivência do jogador, aumentando conforme ele desvia dos obstáculos.
+
